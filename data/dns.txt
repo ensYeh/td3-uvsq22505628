@@ -1,0 +1,4 @@
+www.uvsq.fr 193.51.31.90
+poste.uvsq.fr 193.51.31.154
+univ.uvsq.fr 193.51.25.24
+univ2.uvsq.fr 193.51.25.21
