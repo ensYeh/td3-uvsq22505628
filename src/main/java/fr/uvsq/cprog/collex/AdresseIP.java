@@ -10,6 +10,7 @@ public class AdresseIP {
 
     /**
      * Constructeur : vérifie que l'adresse IP est valide
+     * 
      * @param ip une chaîne de type "192.168.0.1"
      */
     public AdresseIP(String ip) {
@@ -52,8 +53,10 @@ public class AdresseIP {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof AdresseIP)) return false;
+        if (this == o)
+            return true;
+        if (!(o instanceof AdresseIP))
+            return false;
         AdresseIP adresseIP = (AdresseIP) o;
         return ip.equals(adresseIP.ip);
     }
